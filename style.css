@@ -1,9 +1,72 @@
 body {
-  font-family: Arial;
-  background-color: #f4f4f4;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background: darkblue;
+  color: white;
+  padding: 15px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar li {
+  margin: 0 10px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+/* HERO */
+.hero {
+  background: url('https://picsum.photos/1200/400');
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+/* SECTION */
+.section {
+  padding: 40px;
   text-align: center;
 }
 
-h1 {
-  color: darkblue;
+/* CARD */
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+/* FOOTER */
+footer {
+  background: darkblue;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.navbar a:hover {
+  color: yellow;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
 }
